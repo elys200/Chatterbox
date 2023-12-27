@@ -1,0 +1,14 @@
+2023-12-27 12:30:49 - Fitur Pembayaran - Status: Gagal 
+2023-12-27 12:31:32 - Fitur Registrasi - Status: Berhasil 
+2023-12-27 12:32:01 - Fitur Pembayaran - Status: Gagal 
+2023-12-27 12:36:16 - Fitur Game - Status: Gagal 
+2023-12-27 12:38:03 - Fitur Logout - Status: Gagal 
+2023-12-27 12:38:43 - Fitur Logout - Status: Gagal 
+2023-12-27 12:41:08 - Fitur Pembayaran - Status: Gagal 
+2023-12-27 12:46:57 - Fitur Pembayaran - Status: Berhasil 
+2023-12-27 13:04:10 - Fitur Registrasi - Status: Berhasil 
+2023-12-27 13:04:48 - Fitur Login - Status: Berhasil 
+2023-12-27 13:05:31 - Fitur Logout - Status: Berhasil 
+2023-12-27 13:06:15 - Fitur Navbar - Status: Berhasil 
+2023-12-27 13:07:02 - Fitur Game - Status: Berhasil 
+2023-12-27 13:08:06 - Fitur Pembayaran - Status: Berhasil 

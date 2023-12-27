@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    background-color: black;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 140px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    background: #BD3944;
+    overflow: hidden;
+    transition: all 05s linear;
+    color: #fff;
+}
+.sidebar:hover{
+    width: 250px;
+    transition: 0.3s;
+}
+.profile{
+    width: 80px;
+    height: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 5%;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.sidebar:hover .profile{
+    width: 160px;
+    height: 150px;
+}
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo{
+    height: 80px;
+    padding: 16px;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.menu li:hover,
+.active{
+    background: #e0e0e058;
+}
+.menu a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a i{
+    font-size: 1.2rem;
+}
+.main--content{
+    position: relative;
+    background: black;
+    padding: 1rem;
+    width: 100%;
+}
+.header--wrapper img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #BD3944;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+.user--info{
+    display: flex;
+    align-items: center;
+    gap: 1;
+}
+.user--info span {
+    margin-right: 10px;
+}
+.card--container{
+    background: #1A2B3C;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.card--container h3{
+    color: #BD3944;
+}
+.card--container p{
+    color: #fff;
+}
+.card--container h4{
+    color: #fff;
+    font-size: 20px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown .button{
+    background-color: #BD3944;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.dropdown .content{
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #fff;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    max-height: 200px;
+    overflow-y: auto; 
+}
+.dropdown .content a{
+    display: block;
+    color: #212121;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.dropdown .content a:hover{
+    background: #e3e3e3;
+}
+.dropdown:hover button{
+    background-color: #BD3944;
+}
+.dropdown:hover .content{
+    opacity: 1;
+    z-index: 1;
+}
+.tabular--wrapper{
+    background: #253D54;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.table--container{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background: #253D54;
+    color: #fff;
+}
+.col-md-8 {
+    margin: 20px auto;
+}
+.card {
+    box-shadow: 0 4px 8px #BD3944;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+.form-label, .form-control {
+    color: white;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+.form-control {
+    background-color: #fff; 
+    border: 1px solid #fff; 
+    padding: 8px;
+    border-radius: 8px;
+}
+.btn-primary {
+    background-color: #BD3944;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 12%;
+    margin-top: 15px; 
+    align-items: center;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
